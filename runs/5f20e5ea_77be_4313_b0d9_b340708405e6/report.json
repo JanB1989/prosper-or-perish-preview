@@ -1,0 +1,199 @@
+{
+  "playthrough_id": "5f20e5ea_77be_4313_b0d9_b340708405e6",
+  "name": "Brandenburg #62b8642d",
+  "years": [
+    1342,
+    1618
+  ],
+  "saves": 56,
+  "maps": [
+    {
+      "key": "political",
+      "title": "Political map",
+      "subtitle": "Owner of every location",
+      "video": "maps/political.mp4",
+      "poster": "maps/political.png",
+      "bytes": "670805"
+    },
+    {
+      "key": "population",
+      "title": "Population",
+      "subtitle": "People per location (log scale)",
+      "video": "maps/population.mp4",
+      "poster": "maps/population.png",
+      "bytes": "763730"
+    },
+    {
+      "key": "population_change",
+      "title": "Population change",
+      "subtitle": "Change against the first save of the run",
+      "video": "maps/population_change.mp4",
+      "poster": "maps/population_change.png",
+      "bytes": "1113879"
+    },
+    {
+      "key": "unemployment",
+      "title": "Unemployment",
+      "subtitle": "Subsistence peasants as a share of the population",
+      "video": "maps/unemployment.mp4",
+      "poster": "maps/unemployment.png",
+      "bytes": "1175534"
+    },
+    {
+      "key": "development",
+      "title": "Development",
+      "subtitle": "Development of every location",
+      "video": "maps/development.mp4",
+      "poster": "maps/development.png",
+      "bytes": "631382"
+    },
+    {
+      "key": "buildings",
+      "title": "Building levels",
+      "subtitle": "Sum of building levels per location (log scale)",
+      "video": "maps/buildings.mp4",
+      "poster": "maps/buildings.png",
+      "bytes": "630540"
+    },
+    {
+      "key": "investment",
+      "title": "Building investment",
+      "subtitle": "Gold the buildings of a location cost to build (log scale)",
+      "video": "maps/investment.mp4",
+      "poster": "maps/investment.png",
+      "bytes": "643214"
+    },
+    {
+      "key": "investment_change",
+      "title": "Building investment change",
+      "subtitle": "Gold built or lost per location since the first save (log scale both ways)",
+      "video": "maps/investment_change.mp4",
+      "poster": "maps/investment_change.png",
+      "bytes": "869114"
+    },
+    {
+      "key": "trade_regions",
+      "title": "Trade between world regions",
+      "subtitle": "World regions coloured by exports \u2212 imports as a share of their trade with other regions (blue: exporter, red: importer); the 18 largest flows as arrows (width = value per month at base prices, colour = main goods group); labels: imports and exports in gold per month",
+      "video": "maps/trade_regions.mp4",
+      "poster": "maps/trade_regions.png",
+      "bytes": "1347246"
+    },
+    {
+      "key": "trade_routes",
+      "title": "Largest trade routes",
+      "subtitle": "The 40 largest routes between markets: width = value moved per month (base prices), arrow = importer, colour = main goods group, dot = market (size: trade)",
+      "video": "maps/trade_routes.mp4",
+      "poster": "maps/trade_routes.png",
+      "bytes": "1031166"
+    },
+    {
+      "key": "trade_balance",
+      "title": "Market trade balance",
+      "subtitle": "Exports minus imports of each market, as a share of its production plus imports (blue: net exporter, red: net importer)",
+      "video": "maps/trade_balance.mp4",
+      "poster": "maps/trade_balance.png",
+      "bytes": "2038046"
+    }
+  ],
+  "charts": [
+    {
+      "key": "population_by_type",
+      "section": "population",
+      "title": "World population by pop type"
+    },
+    {
+      "key": "population_by_region",
+      "section": "population",
+      "title": "Population by world region"
+    },
+    {
+      "key": "unemployment",
+      "section": "population",
+      "title": "Unemployment"
+    },
+    {
+      "key": "world_trade",
+      "section": "trade",
+      "title": "World trade"
+    },
+    {
+      "key": "trade_heatmap",
+      "section": "trade",
+      "title": "What was traded and what was not"
+    },
+    {
+      "key": "region_trade",
+      "section": "trade",
+      "title": "Trade between world regions"
+    },
+    {
+      "key": "price_heatmap",
+      "section": "prices",
+      "title": "Prices of every good"
+    },
+    {
+      "key": "price_index",
+      "section": "prices",
+      "title": "Prices, use and production by goods group"
+    },
+    {
+      "key": "buildings_by_category",
+      "section": "buildings",
+      "title": "Building levels by category"
+    },
+    {
+      "key": "investment_by_category",
+      "section": "buildings",
+      "title": "Building investment"
+    },
+    {
+      "key": "investment_per_capita",
+      "section": "buildings",
+      "title": "Building investment per capita"
+    },
+    {
+      "key": "countries_population",
+      "section": "countries",
+      "title": "Largest countries by population"
+    },
+    {
+      "key": "countries_income",
+      "section": "countries",
+      "title": "Largest countries by income"
+    }
+  ],
+  "tables": [
+    {
+      "key": "regions",
+      "section": "trade",
+      "title": "World regions: trade in and out"
+    },
+    {
+      "key": "region_pairs",
+      "section": "trade",
+      "title": "Flows between world regions"
+    },
+    {
+      "key": "markets",
+      "section": "trade",
+      "title": "Markets"
+    },
+    {
+      "key": "goods",
+      "section": "trade",
+      "title": "Goods"
+    },
+    {
+      "key": "routes",
+      "section": "trade",
+      "title": "Largest trade routes"
+    },
+    {
+      "key": "countries",
+      "section": "countries",
+      "title": "Largest countries"
+    }
+  ],
+  "published_at": "2026-10-03T18:55:37.295633"
+}
